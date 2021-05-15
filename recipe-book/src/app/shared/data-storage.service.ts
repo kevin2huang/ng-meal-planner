@@ -17,4 +17,13 @@ export class DataStorageService {
             }
         );
     }
+
+    fetchRecipes(){
+        this.http.get<Recipe[]>('https://ng-my-recipe-book-5afec-default-rtdb.firebaseio.com/recipes.json').subscribe(
+            recipes => {
+                this.recipeService.setRecipes(recipes);
+            }
+        );
+    }
+
 }
