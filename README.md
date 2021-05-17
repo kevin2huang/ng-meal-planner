@@ -1,1 +1,1 @@
-# AngularJS-Recipe-Book
+# Meal Planner
