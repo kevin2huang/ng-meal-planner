@@ -22,7 +22,7 @@ import { RecipesComponent } from "./recipes.component";
     ],
     imports: [RouterModule.forChild([ 
         { 
-            path: 'recipes', 
+            path: '', 
             component: RecipesComponent, 
             canActivate: [AuthGuard],
             children: [
