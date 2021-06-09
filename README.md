@@ -1,4 +1,8 @@
-# RecipeBook
+# Meal Planner
+
+## Description
+
+A meal planner website to create and store your favorite recipes. 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
 
