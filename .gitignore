@@ -44,3 +44,5 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+src/app/shared/data-storage.service.ts
+src/app/auth/auth.service.ts
